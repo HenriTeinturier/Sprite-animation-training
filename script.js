@@ -122,6 +122,10 @@ function animate2 () {
 };
 animate2();
 
+// ******************************************************** //
+//* Troisieme METHODE POUR CHOISIR LE NOMBRE DE FRAME BY LINE //
+// ******************************************************** //
+
 // ******************************* //
 //* CHAQUE LIGNE SERA UN OBJET    //
 //* CHAQUE OBJET PEUT CONTENIR:   //
