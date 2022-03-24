@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite Animations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="controls">
+            <label for="animations">Choose Animation</label><br>
+            <select name="animations" id="animations">
+                <option value="idle">Idle</option>
+                <option value="jump">Jump</option>
+                <option value="fall">Fall</option>
+                <option value="run">Run</option>
+                <option value="dizzy">Dizzy</option>
+                <option value="sit">Sit</option>
+                <option value="roll">Roll</option>
+                <option value="bite">Bite</option>
+                <option value="ko">KO</option>
+                <option value="gethit">Get hit</option>
+            </select>
+        </div>
+        <div class="controls">
+            <label for="speed">Choose speed Animation <br> (0 to 15) less is max</label><br>
+            <input type="number" value="5" min="0" max="15" name="speed" id="speed">
+                
+            
+        </div>
+    </header>
+
+    <canvas id="canvas3"></canvas>
+    <canvas id="canvas2"></canvas>
+    <canvas id="canvas1"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>

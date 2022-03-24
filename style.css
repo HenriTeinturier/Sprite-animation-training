@@ -1,0 +1,67 @@
+body {
+    background-color: darkgray;
+}
+
+header {
+   display: flex; 
+   justify-content: center;
+}
+
+.controls {
+    padding: 8px;
+    margin: 8px;
+    background: darkslateblue;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px darkslategray;
+}
+
+.controls, select, option, input {
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+#canvas1 {
+    border: solid 5px black;
+    background-color: darkslategrey;
+    /* necessite absolute pour que les elements suivants soient pris en compte */
+    position: absolute; 
+    top: 1350px;
+    left: 50%;
+    /* permet de centrer parfaitement notre canvas. En effet, son bord est à 50% du to de la page et 50% du gauche de la page. -50% de savaleur le replace au milieu */
+    transform: translate(-50%);
+
+    width: 600px;
+    height: 600px;
+
+}
+
+#canvas2 {
+    border: solid 5px black;
+    background-color: darkslateblue;
+    /* necessite absolute pour que les elements suivants soient pris en compte */
+    position: absolute; 
+    top: 750px;
+    left: 50%;
+    /* permet de centrer parfaitement notre canvas. En effet, son bord est à 50% du to de la page et 50% du gauche de la page. -50% de savaleur le replace au milieu */
+    transform: translate(-50%);
+
+    width: 600px;
+    height: 600px;
+
+}
+
+#canvas3 {
+    border: solid 5px black;
+    background-color: darkcyan;
+    /* necessite absolute pour que les elements suivants soient pris en compte */
+    position: absolute; 
+    top: 150px;
+    left: 50%;
+    /* permet de centrer parfaitement notre canvas. En effet, son bord est à 50% du to de la page et 50% du gauche de la page. -50% de savaleur le replace au milieu */
+    transform: translate(-50%);
+
+    width: 600px;
+    height: 600px;
+
+}
